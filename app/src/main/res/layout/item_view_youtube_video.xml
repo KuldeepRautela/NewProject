@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/id_video_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="Begginer Module"
+        android:visibility="gone"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/id_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:gravity="center"
+        android:fontFamily="@font/lato"
+        android:padding="10dp"
+        android:background="@drawable/ic_video_bg"
+        android:text="Java Tutorial"
+        android:textSize="20sp" />
+</LinearLayout>

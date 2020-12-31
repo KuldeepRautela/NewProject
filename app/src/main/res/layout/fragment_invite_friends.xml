@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".InviteFriendsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"
+        android:text="Invite Friends"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/lato" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Share your awesome learning experience with your friends"
+        app:fontFamily="@font/lato" />
+    <ImageView
+        android:src="@drawable/invite_friends"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"
+        android:text="Invite via"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/lato" />
+    <LinearLayout
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/twitter"
+            android:layout_marginRight="20dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <ImageView
+            android:src="@drawable/facebook"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/instagram"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/telegram"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

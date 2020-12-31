@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CoursesFragment">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="S0Q4gqBUs7c"
+        app:autoPlay="true"
+        app:showFullScreenButton="false" />
+     <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:padding="5dp"
+         android:layout_height="0dp"
+         android:id="@+id/id_recyclerView"
+         android:layout_weight="1"/>
+</LinearLayout>
